@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(201, 201, 201);
+}
+h1{
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.inputs{
+    margin: 5px 0 5px 0;
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    border-radius:5px ;
+    
+}
+label{
+    margin: auto;
+    padding: 5px;
+    font-weight: bold;
+    font-size:20px;
+  
+}
+.login{
+    margin: 5px;
+    padding: 5px;
+}
+.get{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+   
+}
+button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
